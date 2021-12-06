@@ -1,6 +1,7 @@
 # Celebrity Face Recognition WebApp
 ![index](index.gif)<br/>
-In this data science and machine learning project, we classify sports personalities. We restrict classification to only 5 people. In this model firstly we collected images of the athletes from the internet and then cropped all the face detected in images using OpenCV. Then we Wavelets transformed the images to extract the key feature of the faces. Then we created a training set to train the data. We tried many algorithms but chose SVM as it was giving the best results. Then we created a flask application as a backend to handle the input and return output.
+
+We classify sports personalities in this data science and machine learning study. We limit the number of people who can be classified to only five. In this model, we first gathered photographs of athletes from the internet, then used OpenCV to crop all of the faces found in the images. The photos were then Wavelets converted to extract the primary characteristic of the faces. The data was then trained using a training set. We explored a number of algorithms before settling on SVM because it produced the best results. Then, as a backend, we built a flask application to handle the input and output.
 
 ## Five Celebrities
 1. Maria Sharapova
@@ -20,7 +21,3 @@ In this data science and machine learning project, we classify sports personalit
 
 ## Deployment
 This Model is deployed on Heroku Server
-
-## License and Copyright
-© Vishwas Basotra
-Licensed under the [MIT License](LICENSE).
